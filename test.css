@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-color: rgb(0, 255, 157);*/
+   /* background: linear-gradient(to bottom right,rgba(0, 0, 0, 0.534),rgb(8, 197, 93),yellow)*/
+   background-image: url(bg\ img.jfif);
+   background-size: cover;
+   height: 100vh;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 18px;
+    background-color:rgb(104, 48, 156)
+    color rgb(3, 1, 14);
+}
+.logo h3{
+    color:rgb(241, 234, 234);
+    font: font-family 'Poppins', sans-serif;
+}
+.logo span{
+    color:rgb(238, 213, 238);
+}
+.nav-links a{
+    color:rgb(173, 19, 27);
+
+}
+.menu{
+    display:flex;
+    gap:1em;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+}
+.menu li:hover{
+    background-color:rgb(110, 104, 104);
+    border-radius: 5px;
+    transition:0.5s ease-in;
+}
+.menu li{
+    padding:5px 4px 0 0;
+}
+.input{
+    border-radius: 3px;
+    font-family:'Poppins', sans-serif;
+    background-color:rgb(243, 224, 243);
+    width:50%;
+    margin:100px 0 0 158px;
+}
+input[type=text=email],select{
+    width:80%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:2px solid rgb(15, 13, 0);
+    border-radius:10px
+}
+input[type=text=radio]{
+    padding:12px 20px;
+    margin:8px 20px 0 10px;;
+    display:inline-block;
+}
+button{
+    width:100%;
+    background-color:indianred;
+    color:lightblue;
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+} 
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:lightseagreen;
+    height:50px;
+    color:lightyellow;
+    text-align:center;
+    padding-top:30px;
+} 
+/*responsive web*/
+@media(min-width:900px){
+    .input{
+        border-radius: 3px;
+        font-family:'Poppins', sans-serif;
+        background-color:rgb(243, 224, 243);
+        width:20%;
+        margin:100px 0 0 158px;
+        padding:20px;
+    }
+}
